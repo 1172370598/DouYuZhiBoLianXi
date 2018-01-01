@@ -14,6 +14,10 @@
 		6B74A5291FFA2E76004D0276 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B74A5271FFA2E76004D0276 /* LaunchScreen.storyboard */; };
 		6B74A5341FFA2E76004D0276 /* DouYuZhiBoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B74A5331FFA2E76004D0276 /* DouYuZhiBoTests.swift */; };
 		6B74A53F1FFA2E76004D0276 /* DouYuZhiBoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B74A53E1FFA2E76004D0276 /* DouYuZhiBoUITests.swift */; };
+		6B74A56C1FFA7E9C004D0276 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B74A56B1FFA7E9C004D0276 /* Home.storyboard */; };
+		6B74A56F1FFA7EC4004D0276 /* Live.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B74A56D1FFA7EC4004D0276 /* Live.storyboard */; };
+		6B74A5711FFA7EDF004D0276 /* Follow.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B74A5701FFA7EDF004D0276 /* Follow.storyboard */; };
+		6B74A5741FFA7F13004D0276 /* Porofile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B74A5721FFA7F13004D0276 /* Porofile.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		6B74A53A1FFA2E76004D0276 /* DouYuZhiBoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DouYuZhiBoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B74A53E1FFA2E76004D0276 /* DouYuZhiBoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DouYuZhiBoUITests.swift; sourceTree = "<group>"; };
 		6B74A5401FFA2E76004D0276 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B74A56B1FFA7E9C004D0276 /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Home.storyboard; path = ../../Home.storyboard; sourceTree = "<group>"; };
+		6B74A56E1FFA7EC4004D0276 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Live.storyboard; sourceTree = "<group>"; };
+		6B74A5701FFA7EDF004D0276 /* Follow.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Follow.storyboard; path = ../../Follow.storyboard; sourceTree = "<group>"; };
+		6B74A5731FFA7F13004D0276 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Porofile.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,10 +105,9 @@
 		6B74A51D1FFA2E76004D0276 /* DouYuZhiBo */ = {
 			isa = PBXGroup;
 			children = (
-				6B74A54C1FFA45E4004D0276 /* Classes */,
+				6B74A5751FFA812E004D0276 /* Classes */,
 				6B74A51E1FFA2E76004D0276 /* AppDelegate.swift */,
 				6B74A5201FFA2E76004D0276 /* ViewController.swift */,
-				6B74A5221FFA2E76004D0276 /* Main.storyboard */,
 				6B74A5251FFA2E76004D0276 /* Assets.xcassets */,
 				6B74A5271FFA2E76004D0276 /* LaunchScreen.storyboard */,
 				6B74A52A1FFA2E76004D0276 /* Info.plist */,
@@ -126,63 +133,68 @@
 			path = DouYuZhiBoUITests;
 			sourceTree = "<group>";
 		};
-		6B74A54C1FFA45E4004D0276 /* Classes */ = {
+		6B74A5751FFA812E004D0276 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				6B74A54D1FFA45E4004D0276 /* Follow */,
-				6B74A54E1FFA45E4004D0276 /* Home */,
-				6B74A54F1FFA45E4004D0276 /* Live */,
-				6B74A5501FFA45E4004D0276 /* Main */,
-				6B74A5511FFA45E4004D0276 /* Profile */,
-				6B74A5521FFA45E4004D0276 /* Room */,
-				6B74A5531FFA45E4004D0276 /* Tools */,
+				6B74A5761FFA812E004D0276 /* Follow */,
+				6B74A5771FFA812E004D0276 /* Home */,
+				6B74A5781FFA812E004D0276 /* Live */,
+				6B74A5791FFA812E004D0276 /* Main */,
+				6B74A57A1FFA812E004D0276 /* Profie */,
+				6B74A57B1FFA812E004D0276 /* Room */,
+				6B74A57C1FFA812E004D0276 /* Tools */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
 		};
-		6B74A54D1FFA45E4004D0276 /* Follow */ = {
+		6B74A5761FFA812E004D0276 /* Follow */ = {
 			isa = PBXGroup;
 			children = (
+				6B74A5701FFA7EDF004D0276 /* Follow.storyboard */,
 			);
 			path = Follow;
 			sourceTree = "<group>";
 		};
-		6B74A54E1FFA45E4004D0276 /* Home */ = {
+		6B74A5771FFA812E004D0276 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				6B74A56B1FFA7E9C004D0276 /* Home.storyboard */,
 			);
 			path = Home;
 			sourceTree = "<group>";
 		};
-		6B74A54F1FFA45E4004D0276 /* Live */ = {
+		6B74A5781FFA812E004D0276 /* Live */ = {
 			isa = PBXGroup;
 			children = (
+				6B74A56D1FFA7EC4004D0276 /* Live.storyboard */,
 			);
 			path = Live;
 			sourceTree = "<group>";
 		};
-		6B74A5501FFA45E4004D0276 /* Main */ = {
+		6B74A5791FFA812E004D0276 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				6B74A5221FFA2E76004D0276 /* Main.storyboard */,
 			);
 			path = Main;
 			sourceTree = "<group>";
 		};
-		6B74A5511FFA45E4004D0276 /* Profile */ = {
+		6B74A57A1FFA812E004D0276 /* Profie */ = {
 			isa = PBXGroup;
 			children = (
+				6B74A5721FFA7F13004D0276 /* Porofile.storyboard */,
 			);
-			path = Profile;
+			path = Profie;
 			sourceTree = "<group>";
 		};
-		6B74A5521FFA45E4004D0276 /* Room */ = {
+		6B74A57B1FFA812E004D0276 /* Room */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Room;
 			sourceTree = "<group>";
 		};
-		6B74A5531FFA45E4004D0276 /* Tools */ = {
+		6B74A57C1FFA812E004D0276 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
 			);
@@ -300,6 +312,10 @@
 				6B74A5291FFA2E76004D0276 /* LaunchScreen.storyboard in Resources */,
 				6B74A5261FFA2E76004D0276 /* Assets.xcassets in Resources */,
 				6B74A5241FFA2E76004D0276 /* Main.storyboard in Resources */,
+				6B74A56F1FFA7EC4004D0276 /* Live.storyboard in Resources */,
+				6B74A56C1FFA7E9C004D0276 /* Home.storyboard in Resources */,
+				6B74A5711FFA7EDF004D0276 /* Follow.storyboard in Resources */,
+				6B74A5741FFA7F13004D0276 /* Porofile.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -367,6 +383,7 @@
 				6B74A5231FFA2E76004D0276 /* Base */,
 			);
 			name = Main.storyboard;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		6B74A5271FFA2E76004D0276 /* LaunchScreen.storyboard */ = {
@@ -375,6 +392,24 @@
 				6B74A5281FFA2E76004D0276 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		6B74A56D1FFA7EC4004D0276 /* Live.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6B74A56E1FFA7EC4004D0276 /* Base */,
+			);
+			name = Live.storyboard;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		6B74A5721FFA7F13004D0276 /* Porofile.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6B74A5731FFA7F13004D0276 /* Base */,
+			);
+			name = Porofile.storyboard;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -576,6 +611,7 @@
 				6B74A5451FFA2E76004D0276 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6B74A5461FFA2E76004D0276 /* Build configuration list for PBXNativeTarget "DouYuZhiBoTests" */ = {
 			isa = XCConfigurationList;
@@ -584,6 +620,7 @@
 				6B74A5481FFA2E76004D0276 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6B74A5491FFA2E76004D0276 /* Build configuration list for PBXNativeTarget "DouYuZhiBoUITests" */ = {
 			isa = XCConfigurationList;
@@ -592,6 +629,7 @@
 				6B74A54B1FFA2E76004D0276 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

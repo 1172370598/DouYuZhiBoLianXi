@@ -193,6 +193,7 @@
 				TargetAttributes = {
 					6B74A51A1FFA2E75004D0276 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 26RSN4C7FN;
 						ProvisioningStyle = Automatic;
 					};
 					6B74A52E1FFA2E76004D0276 = {
@@ -412,7 +413,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 26RSN4C7FN;
 				INFOPLIST_FILE = DouYuZhiBo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ds.DouYuZhiBo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -424,7 +428,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 26RSN4C7FN;
 				INFOPLIST_FILE = DouYuZhiBo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ds.DouYuZhiBo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
